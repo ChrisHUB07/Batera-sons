@@ -1,14 +1,14 @@
 :root {
   --cinza: #aaa;
-  --vermelha: #e93d50;
-  --vermelha-escura: #af303f;
+  --vermelha: #0011ff;
+  --vermelha-escura: #6cacf5;
   --branca: #fff;
-  --luz: rgb(229, 255, 0);
+  --luz: rgb(156, 6, 6);
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background: linear-gradient(45deg, #172930 0%,#000000 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -61,7 +61,7 @@ h1 {
   box-shadow: 1px 1px 10px var(--luz);
 }
 
-.tecla.active:focus,
+.tecla.ativa:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
